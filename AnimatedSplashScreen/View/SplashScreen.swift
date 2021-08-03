@@ -92,7 +92,7 @@ struct SplashScreen<Content: View,Title: View,Logo: View,NavButton:View>: View {
                     textAnimation.toggle()
                 }
                 
-                withAnimation(.interactiveSpring(response: 1.2, dampingFraction: 1, blendDuration: 1)){
+                withAnimation(.interactiveSpring(response: 0.6, dampingFraction: 1, blendDuration: 1)){
                     endAnimation.toggle()
                 }
                 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810D079D26B9083900F1E1B0 /* Output.mov in Resources */ = {isa = PBXBuildFile; fileRef = 810D079C26B9083900F1E1B0 /* Output.mov */; };
 		81A12B0E26B42BDF0060D8BE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A12B0D26B42BDF0060D8BE /* Home.swift */; };
 		81BFE2DF268ED7B60061A873 /* AnimatedSplashScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFE2DE268ED7B60061A873 /* AnimatedSplashScreenApp.swift */; };
 		81BFE2E1268ED7B60061A873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFE2E0268ED7B60061A873 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810D079C26B9083900F1E1B0 /* Output.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Output.mov; sourceTree = "<group>"; };
 		81A12B0D26B42BDF0060D8BE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		81BFE2DB268ED7B60061A873 /* AnimatedSplashScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedSplashScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BFE2DE268ED7B60061A873 /* AnimatedSplashScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSplashScreenApp.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810D079B26B9082D00F1E1B0 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				810D079C26B9083900F1E1B0 /* Output.mov */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
 		81BFE2D2268ED7B60061A873 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		81BFE2DD268ED7B60061A873 /* AnimatedSplashScreen */ = {
 			isa = PBXGroup;
 			children = (
+				810D079B26B9082D00F1E1B0 /* Output */,
 				81BFE309268ED8D50061A873 /* View */,
 				81BFE2DE268ED7B60061A873 /* AnimatedSplashScreenApp.swift */,
 				81BFE2E0268ED7B60061A873 /* ContentView.swift */,
@@ -247,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D079D26B9083900F1E1B0 /* Output.mov in Resources */,
 				81BFE2E6268ED7B80061A873 /* Preview Assets.xcassets in Resources */,
 				81BFE2E3268ED7B80061A873 /* Assets.xcassets in Resources */,
 			);
@@ -363,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,7 +449,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimatedSplashScreen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AnimatedSplashScreen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +470,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimatedSplashScreen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AnimatedSplashScreen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
