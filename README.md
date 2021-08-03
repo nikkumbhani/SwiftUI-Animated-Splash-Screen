@@ -3,7 +3,8 @@ Hello there, Nikunj here and I have created a SwiftUI Animated Splash Screen app
 
 You can use it in your own project as a beautiful custom Animated Splash Screen.
 
-
+## Output
+<img src="https://github.com/NikunjKumbhani/SwiftUI-Animated-Splash-Screen/blob/master/AnimatedSplashScreen/Output/Output.gif?raw=true" width="300">
 
 ## Credits
 © Nikunj Kumbhani | 2021
